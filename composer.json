@@ -1,0 +1,17 @@
+{
+    "name": "zhuldyz/recipe-sender-php-microservice",
+    "autoload": {
+        "psr-4": {
+            "Zhuldyz\\RecipeSenderPhpMicroservice\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Zhuldyz Namazbayeva",
+            "email": "zhuldyznamazbayeva@gmail.com"
+        }
+    ],
+    "require": {
+        "php-amqplib/php-amqplib": ">=2.6.1"
+    }
+}
