@@ -1,0 +1,11 @@
+{% extends "base.twig" %}
+
+{% block body %}
+    <h1>Список сообщений</h1>
+
+    <ul>
+        {% for mail in mails %}
+            <li>{{ mail.getLetter() }}</li>
+        {% endfor %}
+    </ul>
+{% endblock %}
