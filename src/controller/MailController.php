@@ -16,7 +16,7 @@ class MailController
 
         $view = Twig::fromRequest($request);
 
-        return $view->render($response, 'mails.twig', ['mails' => $mails]);
+        return $view->render($response, 'mail.twig', ['mails' => $mails]);
     }
 
     public function newMail(ServerRequest $request, Response $response)
