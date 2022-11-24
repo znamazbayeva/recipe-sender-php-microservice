@@ -45,3 +45,24 @@ DB_PASSWORD="zhanarys"
 ```
 php -S localhost:8080 
 ```
+
+
+# EXTRA
+
+1. Test crontab by opening
+
+```
+crontab -e
+```
+
+2. Writing the task down
+```
+1 * * * * cd /path-to-our-github/recipe-sender-php-microservice/ && php -f script.php
+
+```
+3. Saving and starting crontab
+
+```
+CTRL (CMD)+ X
+CTRL (CMD)+ Y
+```
