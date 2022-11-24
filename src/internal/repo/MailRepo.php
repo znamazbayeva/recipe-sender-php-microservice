@@ -10,8 +10,12 @@ use Zhuldyz\RecipeSenderPhpMicroservice\internal\entity\Mail;
 class MailRepo
 {
     private function connectDB(): PDO
-    {
-        $connection = new PDO("mysql:host=localhost;dbname=mail_db", "root", "zhanarys");
+    {   
+        $DB_HOST = $_ENV['DB_HOST'];
+        $DB_NAME = $_ENV['DB_NAME'];
+        $DB_USER = $_ENV['DB_USER'];
+        $DB_PASSWORD = $_ENV['DB_PASSWORD'];
+        $connection = new PDO("mysql:host=".$DB_HOST .";dbname=" .$DB_NAME. ";",  $DB_USER, $DB_PASSWORD);
         return $connection;
     }
 

@@ -1,7 +1,5 @@
 <?php
 
-require_once './php/vendor/autoload.php';
-
 use PhpAmqpLib\Message\AMQPMessage;
 use PhpAmqpLib\Connection\AMQPStreamConnection;
 $vhost = 'fnnpqkez';
