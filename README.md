@@ -1,5 +1,11 @@
 # Recipe Sender Php microservice
 
+## Всегда голодны?
+
+![](https://github.com/znamazbayeva/recipe-sender-php-microservice/hungry.gif)
+
+Наше приложение поможет вам с рецептом блюд на каждай день!
+
 Installation:
 
 1. Install dependencies
